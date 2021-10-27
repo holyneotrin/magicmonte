@@ -1,0 +1,28 @@
+.background img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 48px;
+}
+
+#content {
+  text-align: left;
+  margin: 50px 100px;
+}
+
+img {
+  float: right;
+  max-width: 500px;
+}
+
+p {
+  font-size: 18px;
+}
+
+input [type=text] {
+  width: 20%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}

@@ -57,3 +57,7 @@ myButton.addEventListener("click",function(){
   document.getElementById("output").innerHTML = newText;
   document.getElementById("answer").innerHTML = answer;
 })
+
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+}

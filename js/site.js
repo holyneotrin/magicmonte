@@ -7,7 +7,7 @@
 
 function answerMonte(str) {
 	len = str.length;
-  mod = len % 12;
+  mod = len % 13;
   if (mod == 0) {
   	return "I am otterly sure!"
   }

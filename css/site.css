@@ -1,24 +1,30 @@
-.background img {
-  background-size: cover;
+body {
+  background-image: url(../img/background2.svg);
+  background-color: #029ecd;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
 }
 h1 {
   font-size: 48px;
+  color: white;
 }
 
 #content {
   text-align: left;
-  margin: 50px 100px;
+  margin: 100px 130px;
 }
 
 img {
+  display:block;
+  margin-left: auto;
   float: right;
-  max-width: 500px;
+  /* margin-right: auto; */
+  width: 40%;
 }
 
 p {
   font-size: 18px;
+  color: white;
 }
 
 input [type=text] {

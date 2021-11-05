@@ -5,13 +5,13 @@ body {
   background-size: cover;
 }
 h1 {
-  font-size: 48px;
+  font-size: 72px;
   color: white;
 }
 
 #content {
   text-align: left;
-  margin: 100px 130px;
+  margin: 90px 130px;
 }
 
 img {

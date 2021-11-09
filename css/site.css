@@ -16,7 +16,8 @@ h1 {
 
 .monte-img {
   display:block;
-  margin-left: auto;
+  margin-top: 100px;
+  margin-right: 120px;
   float: right;
 }
 
@@ -44,7 +45,7 @@ input [type=text] {
   display: inline-block;
   position: relative;
   font-size: 36px;
-  margin: 35px 130px;
+  margin: 35px 150px;
 }
 
 #output:after {

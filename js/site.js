@@ -29,5 +29,5 @@ myButton.addEventListener("click",function(){
 //displays output
    document.getElementById("output").innerHTML = answer;
    document.getElementById("submit").style.display = "none";
-   document.getElementById("reload").style.display = "block";
+   document.getElementById("reload").style.display = "inline";
 })

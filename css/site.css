@@ -11,15 +11,13 @@ h1 {
 
 #content {
   text-align: left;
-  margin: 90px 130px;
+  margin: 90px 120px;
 }
 
 .monte-img {
   display:block;
   margin-left: auto;
   float: right;
-  /* margin-right: auto; */
-;
 }
 
 p {
@@ -33,10 +31,30 @@ input [type=text] {
   box-sizing: border-box;
 }
 
-#output{
-  padding: 10px 0px;
-}
-
 #reload {
   display: none;
 }
+
+#output{
+  padding: 25px 25px;
+  text-align: left;
+  background: white;
+  width: 25vw;
+  height: 7vw;
+  display: inline-block;
+  position: relative;
+  font-size: 36px;
+  margin: 35px 130px;
+}
+
+#output:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border: 32px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: 195px;
+    margin-bottom: -32px;

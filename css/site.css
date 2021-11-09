@@ -14,12 +14,12 @@ h1 {
   margin: 90px 130px;
 }
 
-img {
+.monte-img {
   display:block;
   margin-left: auto;
   float: right;
   /* margin-right: auto; */
-  width: 40%;
+  width: 4  0%;
 }
 
 p {
@@ -31,4 +31,12 @@ input [type=text] {
   width: 20%;
   padding: 15px 10px;
   box-sizing: border-box;
+}
+
+#output{
+  padding: 10px 0px;
+}
+
+#reload {
+  display: none;
 }

@@ -65,3 +65,8 @@ input [type=text], select{
     border-right: 0;
     margin-left: 100px;
     margin-bottom: -32px;
+  }
+
+  a {
+    padding: 30px 20px;
+  }

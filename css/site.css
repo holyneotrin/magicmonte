@@ -4,31 +4,35 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1 {
-  font-size: 72px;
+  font-size: 60px;
   color: white;
 }
 
 #content {
   text-align: left;
-  margin: 90px 120px;
+  margin: 40px 120px;
 }
 
 .monte-img {
   display:block;
-  margin-top: 100px;
-  margin-right: 120px;
   float: right;
+  margin-left: 600px;
+
 }
 
 p {
-  font-size: 18px;
+  font-size: 24px;
   color: white;
 }
 
-input [type=text] {
-  width: 20%;
-  padding: 15px 10px;
+input [type=text], select{
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -38,14 +42,16 @@ input [type=text] {
 
 #output{
   padding: 25px 25px;
-  text-align: left;
+  text-align: center;
   background: white;
   width: 25vw;
-  height: 7vw;
+  height: 4vw;
   display: inline-block;
   position: relative;
-  font-size: 36px;
-  margin: 35px 150px;
+  font-size: 28px;
+  float: right;
+  margin-right: 300px;
+  border-radius: 25px;
 }
 
 #output:after {
@@ -57,5 +63,5 @@ input [type=text] {
     border-top-color: white;
     border-bottom: 0;
     border-right: 0;
-    margin-left: 195px;
+    margin-left: 100px;
     margin-bottom: -32px;

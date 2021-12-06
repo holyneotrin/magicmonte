@@ -70,3 +70,28 @@ input [type=text], select{
   a {
     padding: 30px 20px;
   }
+
+.font-effect-neon {
+animation: flicker 1.5s infinite alternate;
+color: #FFF5EE;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+0%, 18%, 22%, 25%, 53%, 57%, 100% {
+text-shadow:
+  0 2 4px #ADD8E6,
+  0 4 11px #ADD8E6,
+  0 6 19px #ADD8E6,
+  0 8 40px #4682B4,
+  0 10 80px #4682B4,
+  0 12 90px #4682B4,
+  0 14 100px #4682B4,
+  0 16 150px #4682B4;
+}
+
+20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

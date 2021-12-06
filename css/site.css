@@ -74,6 +74,8 @@ input [type=text], select{
 .font-effect-neon {
 animation: flicker 1.5s infinite alternate;
 color: #FFF5EE;
+text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #4682b4,
+0 0 0.6em #029ecd, 0 0 0.8em #add8e6, 0 0 1em #3580d5, 0 0 1.2em #2250e2;
 }
 
 /* Flickering animation */

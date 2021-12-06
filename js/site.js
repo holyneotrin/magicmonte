@@ -5,19 +5,38 @@
 
 // random value JS array is from -> https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
 const answers = [
-  "I am otterly sure!",
-  "I'm not sure, you've left me in otter disbelief.",
-  "That's otter nonsense.",
+  "I am otterly shore!",
   "Yes, you're not like the otters!",
-  "Ask again later, I otter know better.",
-  "No, get otter here.",
   "The way I sea it, I'm otterly certain.",
-  "I'm otterly unsure.",
-  "You otter not count on it.",
   "My kelp beds point to yes.",
-  "You otter have something better to do.",
-  "Nah, you otter get some b*tches.",
   "Outlook is otterly good.",
+  "Shell yeah!",
+  "Yeah, buoy!",
+  "Feeling fin-tastic about this!",
+  "Outcome a-piers to be yes.",
+  "The water is crystal clear.",
+  "I sea this in your favor.",
+
+
+  "I'm not sure, you've left me in otter disbelief.",
+  "Ask again later, I otter know better.",
+  "I'm otterly unsure.",
+  "You otter have something better to do.",
+  "Seek to sea more.",
+  "I'm not shore.",
+  "I don't know, I'm sick of this ship.",
+
+
+  "That's otter nonsense.",
+  "No, get otter here.",
+  "You otter not count on it.",
+  "Nah, you otter get some b*tches.",
+  "Don't get tide down.",
+  "Nah, sea you later.",
+  "No, are you squidding me?",
+  "This is a fantasea, be realistic.",
+
+
 ];
 
 const random = Math.floor(Math.random() * answers.length);

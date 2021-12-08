@@ -3,10 +3,12 @@ body {
   background-color: #029ecd;
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
+
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 55px;
   color: white;
 }
 
@@ -15,11 +17,12 @@ h1 {
   margin: 40px 120px;
 }
 
-.monte-img {
+#monte-img {
+  position: absolute;
   display:block;
   float: right;
-  margin-left: 600px;
-
+  margin-left: 775px;
+  top: 365px;
 }
 
 p {
@@ -29,7 +32,8 @@ p {
 
 input [type=text], select{
   width: 50%;
-  padding: 12px 20px;
+  height: 28px;
+  padding: 12px 10px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -41,16 +45,16 @@ input [type=text], select{
 }
 
 #output{
-  padding: 25px 25px;
+  padding: 25px 15px;
   text-align: center;
   background: white;
   width: 25vw;
-  height: 4vw;
+  height: 5vw;
   display: inline-block;
   position: relative;
-  font-size: 28px;
+  font-size: 24px;
   float: right;
-  margin-right: 300px;
+  margin-right: 200px;
   border-radius: 25px;
 }
 
@@ -68,8 +72,19 @@ input [type=text], select{
   }
 
   a {
-    padding: 30px 20px;
+    font-size: 15px;
   }
+
+button, input {
+border-radius: 12px;
+border-color: blue;
+transition-duration: 0.2s;
+}
+
+button, input[type=submit]:hover {
+  background-color: blue;
+  color: white;
+}
 
 .font-effect-neon {
 animation: flicker 1.5s infinite alternate;

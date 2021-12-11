@@ -77,12 +77,12 @@ input [type=text], select{
 
 button, input {
 border-radius: 12px;
-border-color: blue;
+border-color: #13204d;
 transition-duration: 0.2s;
 }
 
 button, input[type=submit]:hover {
-  background-color: blue;
+  background-color: #13204d;
   color: white;
 }
 

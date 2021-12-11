@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
-<style>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+	<style>
 	body {
-  font-family: "Sofia", sans-serif;
-  font-size: 30px;
-	color: #4682B4;
+		font-family: "Sofia", sans-serif;
+		font-size: 30px;
+		color: #4682B4;
 	}
 </style>
 <body>
@@ -34,19 +34,32 @@
 				</div>
 
 				<div id="output">Hello, ask me a question!</div>
-<!-- audio -->
-				<!-- <audio controls loop autoplay>
-				<source src="img/spongebob.mp3" type="audio/mpeg">
-			</audio> -->
-				<a href="js/site.js">Javascript</a>
+				<!-- audio -->
+				<audio id= "audio" loop autoplay>
+					<source src="audio/spongebob.mp3" type="audio/mpeg">
+					</audio>
 
-			<div id="monte-img">
-				<img src="img/monte-img.png" alt="image of Monte the Otter" width= 390px">
-			</div><br>
+			<audio id="positive">
+				<source src="audio/youve-been-informed-345.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="neutral">
+				<source src="audio/not-bad-549.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="bad">
+				<source src="audio/dont-think-so-556.mp3" type="audio/mpeg">
+			</audio>
+					<button onclick="playAudio()" type="button" id="play">Play</button>
+					<button onclick="pauseAudio()" type="button" id="pause">Pause</button>
 
+					<a href="js/site.js">Javascript</a>
+
+					<div id="monte-img">
+						<img src="img/monte-img.png" alt="image of Monte the Otter" width= 390px">
+					</div><br>
+
+				</div>
+
+			</div>
 		</div>
-
-	</div>
-</div>
-</body>
-</html>
+	</body>
+	</html>

@@ -1,7 +1,7 @@
 // authors:  Emma Alexander, JC Del Carmen, Akif Khaled, and Trinity Phan-Low
 // date: 10.26.2021
 // public domain
-// this is a change
+
 
 // lists of possible responses
 // 0 = neutral response, 1 = positive response, -1 = negative resp
